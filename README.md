@@ -1,2 +1,2 @@
 # kassis_numbering_python
-adapter for kassis_numbering
+Python client for Kassis Numbering
