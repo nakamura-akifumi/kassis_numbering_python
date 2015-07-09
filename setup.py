@@ -6,7 +6,7 @@ import os
 import sys
 import version
 
-libdir = "lib/kassis_numbering_python"
+libdir = "kassis_numbering_python"
 bindir = os.path.join(libdir, "bin")
 
 sys.path.insert(0, libdir)
