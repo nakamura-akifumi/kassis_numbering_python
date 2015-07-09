@@ -10,8 +10,9 @@ $ pip install kassis-numbering
 ## Usage
 
 ```
->>> import kassis_numbering
->>> KassisNumbering.numbering("U")
+>>> from kassis_numbering import KassisNumbering
+>>> KassisNumbering.numbering("I")
+'00000004'
 ```
 
 ## License
