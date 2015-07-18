@@ -4,7 +4,7 @@ import urllib.request
 
 class KassisNumbering:
     def numbering(identifier, service_server_url = None):
-        default_service_server = "http://localhost:3000"
+        default_service_server = "http://localhost:59630"
         numbering_prefix = "/numbering/"
 
         service_server_url = service_server_url or default_service_server
@@ -29,5 +29,5 @@ if "__main__" == __name__:
     assert int(v) == (int(v0) + 1)
     assert KassisNumbering.numbering("U") != None
     assert KassisNumbering.numbering("X") == None
-    assert KassisNumbering.numbering("U", "http://localhost:3000") != None
+    assert KassisNumbering.numbering("U", "http://localhost:59630") != None
     assert KassisNumbering.numbering("U", "http://localhost:9999") == None
